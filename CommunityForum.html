@@ -1,0 +1,84 @@
+!DOCTYPE html>
+<html>
+
+<head>
+  <title>Community Forum</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="dropmenu.js" type="text/javascript"></script>
+</head>
+
+<body id="body" class="container">
+  
+  <div>
+
+    <img src="watchdog.jpg" alt="homepage" width="1100" height="400" />
+
+  </div>
+
+  <div class="container">
+     <nav>
+       <table class="menutable">
+
+        <tr>
+
+          <td>
+
+            <a href="index.html">Community Forum</a>
+            <br/>
+   </td> 
+    <td onmouseover="showMenu( 'dropmenu') " onmouseout="hideMenu( 'dropmenu') ">
+    
+     <a href="#">Menu</a>
+     <br/>
+
+     <table class="menu" id="dropmenu">
+      <tr><td class="menu "><a href="Armagh.html">Armagh</a></td></tr>
+      <tr><td class="menu "><a href="Antrim.html">Antrim</a></td></tr>
+      <tr><td class="menu "><a href="Down.html">Down</a></td></tr>
+      <tr><td class="menu "><a href="LDerry.html">Derry/Londonderry</a></td></tr>
+      <tr><td class="menu "><a href="Fermanagh.html">Fermanagh</a></td></tr>
+      <tr><td class="menu "><a href="Tyrone.html">Tyrone</a></td></tr>
+     </table>
+
+    </td>
+   </tr>
+  </table>
+ </nav> 
+</div>
+ <div>  
+  <br>  
+  <!-- Dropdown list for the district type selection --> 
+  <select id="types" onchange="giftType()">
+   <option value="">Select Community Here</option>
+   <option value="Antrim">Antrim</option>   
+   <option value="Armagh">Armagh</option>
+   <option value="Down">Down</option>
+   <option value="Derry/Londonderry">Derry/Londonderry</option>
+   <option value="Fermanagh">Fermanagh</option>
+   <option value="Tyrone">Tyrone</option>
+  </select>
+ </div>
+ 
+<section id="section1">
+  <div class="row">
+  <div class="half column">
+    <img src="antrim.jpg" alt="antrim" style="width:350;height:300;">
+    <p>
+    <i><b>Community Forum in Antrim</b></i><br>
+    <br>
+    <b><a href="Antrim.html">Click here</a></b>
+    </p>
+  </div><!-- half column -->
+
+  <div class="half column">
+    <img src="armagh.jpg" alt="Armagh" style="width:350;height:300;">
+    <p>
+    <i><b>Community Forum in Armagh</b></i><br>
+    <b><a href="Armagh.html"></a></b>
+    </p>
+  </div><!-- /half column -->
+</section><!-- /#section1 -->
+
+
+</body>
+</html>
