@@ -1,2 +1,39 @@
+<script>
+function ValidateForm()
+{
+console.log("i am printing stuff yay");
+var form = document.getElementById("CWForm");
+alert("sup");
+}
+</script>
+
 <h1>Test</h1>
 <button type="button" class="btn btn-default" onclick="location.href='LandingPage.html';">Back Button</button>
+
+<form action = "#" onsubmit = "return ValidateForm();" id = "CWForm">
+	<input type = "checkbox" value = "nonEmergency" required> Tick to agree this is not an emergency <p>
+	<select>
+		<option value = "General">General Crime/Incident</option>
+		<option value = "Hate">Hate Crime</option>
+		<option value = "Cyber"> Cyber Crime </option>
+	</select>
+	
+	<p>
+	
+	<select>
+		<option value = "Mr">Mr</option>
+		<option value = "Mrs">Mrs</option>
+		<option value = "Miss">Miss</option>
+		<option value = "Other">Other</option>
+	</select>
+	
+	<p>
+	<input type = "text" name = "Forename"><p>
+	<input type = "text" name = "Surname"><p>
+	<input type = "text" name = "Location" id = "Location" ><p>
+	
+	<input type = "date" name = "date"><p>
+	<textarea name="paragraph_text" cols="50" rows="10"></textarea><p>
+	
+	<input type = "submit" value = "Submit">
+</form>
