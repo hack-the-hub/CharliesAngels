@@ -5,9 +5,17 @@ background-color: white;
 body{
     background-color: white;
 }
+#title{
+    font-family: 'Fjalla One', sans-serif;
+}
 
-div.bannerLogo{
-    content:url(images/watchdogbanner.jpg);
-    margin-top:25px;
-    margin-left:300px;
+#bannerLogo{
+    margin-top:10px;
+    margin-left:550px;
+    margin-bottom:10px;
+}
+
+.form-group.required .control-label:after { 
+   content:"*";
+   color:red;
 }
