@@ -5,3 +5,9 @@ background-color: white;
 body{
     background-color: white;
 }
+
+div.bannerLogo{
+    content:url(images/watchdogbanner.jpg);
+    margin-top:25px;
+    margin-left:300px;
+}
