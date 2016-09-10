@@ -1,7 +1,12 @@
-#container{
+html{
+background-color: orange;
+}
+
+body{
     background-color: orange;
 }
 
 #PageTitle{
+    background-color: orange;
     color: black;
 }
