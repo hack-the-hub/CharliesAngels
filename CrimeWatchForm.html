@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -17,8 +18,24 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+  
+  <script>
+function ValidateForm()
+{
+var form = document.getElementById("CWForm");
+
+console.log(form.elements[4].value);
+if(form.elements[4].value === "")
+{
+form.elements[4].value = "Anonymous";
+form.elements[5].value = "";
+} 
+
+}
+
+</script>
   <body>
-    <form class="form-horizontal">
+    <form class="form-horizontal" action = "#" onsubmit = "return ValidateForm();" id = "CWForm">
 <fieldset>
 
 <!-- Form Name -->
@@ -64,7 +81,7 @@
 <div class="form-group">
   <label class="col-md-4 control-label" for="textinput">Forename</label>  
   <div class="col-md-4">
-  <input id="textinput" name="textinput" type="text" placeholder="Forename" class="form-control input-md">
+  <input id="textinput" name="Forename" type="text" placeholder="Forename" class="form-control input-md">
     
   </div>
 </div>
