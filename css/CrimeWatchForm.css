@@ -5,8 +5,10 @@ background-color: white;
 body{
     background-color: white;
 }
-#title{
-    font-family: 'Fjalla One', sans-serif;
+.title{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 60px;
+  text-align: center;
 }
 
 #bannerLogo{
