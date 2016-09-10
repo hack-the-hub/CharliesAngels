@@ -1,84 +1,109 @@
-!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Community Forum</title>
+    <link rel="stylesheet" type="text/css" href="CommunityForum.css">
 
-<head>
-  <title>Community Forum</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="dropmenu.js" type="text/javascript"></script>
-</head>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-<body id="body" class="container">
-  
-  <div>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-    <img src="watchdog.jpg" alt="homepage" width="1100" height="400" />
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+  </head>
+  <body>
 
-  </div>
+      <div class="logoimg">
+      </div>
 
-  <div class="container">
-     <nav>
-       <table class="menutable">
-
-        <tr>
-
-          <td>
-
-            <a href="index.html">Community Forum</a>
-            <br/>
-   </td> 
-    <td onmouseover="showMenu( 'dropmenu') " onmouseout="hideMenu( 'dropmenu') ">
+      <h1 class="title">Community Forum</h1>
     
-     <a href="#">Menu</a>
-     <br/>
+      <!--This is the NAVIGATION BAR -->
+      <nav class="navsection">
 
-     <table class="menu" id="dropmenu">
-      <tr><td class="menu "><a href="Armagh.html">Armagh</a></td></tr>
-      <tr><td class="menu "><a href="Antrim.html">Antrim</a></td></tr>
-      <tr><td class="menu "><a href="Down.html">Down</a></td></tr>
-      <tr><td class="menu "><a href="LDerry.html">Derry/Londonderry</a></td></tr>
-      <tr><td class="menu "><a href="Fermanagh.html">Fermanagh</a></td></tr>
-      <tr><td class="menu "><a href="Tyrone.html">Tyrone</a></td></tr>
-     </table>
+        <ul class="navbar">
 
-    </td>
-   </tr>
-  </table>
- </nav> 
-</div>
- <div>  
-  <br>  
-  <!-- Dropdown list for the district type selection --> 
-  <select id="types" onchange="giftType()">
-   <option value="">Select Community Here</option>
-   <option value="Antrim">Antrim</option>   
-   <option value="Armagh">Armagh</option>
-   <option value="Down">Down</option>
-   <option value="Derry/Londonderry">Derry/Londonderry</option>
-   <option value="Fermanagh">Fermanagh</option>
-   <option value="Tyrone">Tyrone</option>
-  </select>
- </div>
- 
-<section id="section1">
-  <div class="row">
-  <div class="half column">
-    <img src="antrim.jpg" alt="antrim" style="width:350;height:300;">
-    <p>
-    <i><b>Community Forum in Antrim</b></i><br>
-    <br>
-    <b><a href="Antrim.html">Click here</a></b>
-    </p>
-  </div><!-- half column -->
+          <li class="slide" >Home</li>
+          <li class="slide" >Community Forum </li>
+          <li class="slide" >Map</li>
+          <li class="slide" >Crime Watch </li>
 
-  <div class="half column">
-    <img src="armagh.jpg" alt="Armagh" style="width:350;height:300;">
-    <p>
-    <i><b>Community Forum in Armagh</b></i><br>
-    <b><a href="Armagh.html"></a></b>
-    </p>
-  </div><!-- /half column -->
-</section><!-- /#section1 -->
+        </ul>
+
+        </nav>
+
+      <!--END NAV BAR-->
+
+        <div class="antrim">
+          <a href="https://www.facebook.com/Watchdog-Antrim-1806399242966757/">
+            <img class="img-responsive" src="imgs/antrim.jpg" alt="">
+          </a>
+        </div>
+
+      <br>
+
+      <div class="armagh">
+          <a href="https://www.facebook.com/Watchdog-Armagh-301871690185369/">
+            <img class="img-responsive" src="imgs/armagh.jpg" alt="">
+          </a>
+        </div>
+
+        <br>
+
+        <div class="derry">
+          <a href="https://www.facebook.com/Watchdog-DerryLondonderry-1240656202632997/">
+            <img class="img-responsive" src="imgs/lderry.jpg" alt="">
+          </a>
+        </div>
+
+        <br>
 
 
-</body>
+        <div class="down">
+          <a href="https://www.facebook.com/Watchdog-Down-1768016720080085/">
+            <img class="img-responsive" src="imgs/down.jpg" alt="">
+          </a>
+        </div>
+
+      <br>
+
+        <div class="fermanagh">
+          <a href="https://www.facebook.com/Watchdog-Fermanagh-190238138063235/">
+            <img class="img-responsive" src="imgs/fermanagh.jpg" alt="">
+          </a>
+        </div>
+
+        <br>
+
+
+      <div class="tyrone">
+          <a href="https://www.facebook.com/Watchdog-Tyrone-298289953879830/">
+            <img class="img-responsive" src="imgs/tyrone.jpg" alt="">
+          </a>
+        </div>
+
+        <!--This is the FOOTER -->
+      <div class="footer">
+
+        <p>&copy; Copyright <script>new Date().getFullYear()>2010&&document.write(+new Date().getFullYear());</script>, Watch Dog by Charlies Angels @ HackTheHubNI </p>
+
+        </ul>
+
+        </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
 </html>

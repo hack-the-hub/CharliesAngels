@@ -1,0 +1,100 @@
+.title{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 60px;
+  text-align: center;
+}
+
+div.logoimg{
+
+    content:url(imgs/logo.jpg);
+    margin-top:25px;
+    margin-left: 300px;
+
+}
+
+nav.navsection{
+
+    height:100px;
+    width:1345px;
+    
+}
+
+ul.navbar{
+    color:black;
+    text-decoration: none;
+    text-align:center;
+    font-size: 30px;
+    font-family: 'Fjalla One', sans-serif;
+    
+}
+
+li{
+    display:inline;
+    padding:30px;
+}
+
+.slide{
+    display:inline-block;
+    position:relative;
+    padding-bottom: 30px;
+}
+
+.slide:after{
+    content:'';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width:0px;
+    background: transparent;
+    transition:width .5s ease, background-color .5s ease;
+
+}
+
+.slide:hover:after{
+    width:100%;
+    background:orange;
+}
+div.antrim{
+
+    float:left;
+    margin-top:20px;
+    margin-left:200px;
+}
+
+div.armagh{
+
+    float:right;
+    margin-right:200px;
+}
+
+div.derry{
+    float:left;
+    margin-top:20px;
+    margin-left:200px;
+}
+
+div.down{
+    float:right;
+    margin-top:20px;
+    margin-right:200px;
+}
+
+div.fermanagh{
+    float:left;
+    margin-top:20px;
+    margin-left:200px;
+}
+
+div.tyrone{
+    float:right;
+    margin-top:20px;
+    margin-right:200px;
+}
+
+div.footer{
+
+    margin-top: 900px;
+    height:100px;
+    width:1345px;
+    background-color: black;
+}
