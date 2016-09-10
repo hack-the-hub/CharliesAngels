@@ -56,32 +56,27 @@ li{
 }
 
 
-div.crimewatch{
-    height:400px;
-    width:400px;
+/* div.crimewatch{
     float:left;
-    margin-top:20px;
-    margin-left:200px;
+    margin-top:30px;
+    margin-left:300px;
 }
 
 div.map{
-    height:400px;
-    width:400px;
-    float:right;
-    margin-right:200px;
+    float:left;
+    margin-top:10px;
+    margin-right:300px;
 }
 
 div.comforum{
-    height:400px;
-    width:400px;
-    float:left;
-    margin-top:20px;
-    margin-left:500px;
+    margin-top:50px;
+    margin-right:100px;
 }
 
-div.footer{
+*/
 
-    margin-top: 900px;
+div.footer{
+    
     height:100px;
     width:1495px;
     background-color: black;
